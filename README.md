@@ -1,4 +1,4 @@
-# tempoFoo
+# generatorGulpAngularProduct
 
 ## Software Requirements
 

@@ -12,7 +12,7 @@ export class MainController {
     this.awesomeThings = new Array();
     this.webDevTec = webDevTec;
     this.classAnimation = '';
-    this.creationDate = 1461000367661;
+    this.creationDate = 1461018240136;
     this.toastr = toastr;
     this.activate($timeout);
   }

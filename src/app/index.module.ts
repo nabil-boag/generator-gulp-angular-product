@@ -11,10 +11,10 @@ import { acmeMalarkey } from '../app/components/malarkey/malarkey.directive';
 declare var malarkey: any;
 declare var moment: moment.MomentStatic;
 
-module tempoFoo {
+module generatorGulpAngularProduct {
   'use strict';
 
-  angular.module('tempoFoo', ['toastr'])
+  angular.module('generatorGulpAngularProduct', ['toastr'])
     .constant('malarkey', malarkey)
     .constant('moment', moment)
     .config(config)

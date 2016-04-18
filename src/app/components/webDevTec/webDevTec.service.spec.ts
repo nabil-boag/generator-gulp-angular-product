@@ -2,7 +2,7 @@ import { WebDevTecService, ITecThing } from './webDevTec.service';
 
 describe('service webDevTec', () => {
 
-  beforeEach(angular.mock.module('tempoFoo'));
+  beforeEach(angular.mock.module('generatorGulpAngularProduct'));
 
   it('should be registered', inject((webDevTec: WebDevTecService) => {
     expect(webDevTec).not.toEqual(null);

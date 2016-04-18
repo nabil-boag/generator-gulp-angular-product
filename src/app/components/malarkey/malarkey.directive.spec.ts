@@ -11,7 +11,7 @@ describe('directive malarkey', () => {
   let element: angular.IAugmentedJQuery;
   let malarkeyController: MalarkeyController;
 
-  beforeEach(angular.mock.module('tempoFoo'));
+  beforeEach(angular.mock.module('generatorGulpAngularProduct'));
 
   beforeEach(inject(($compile: angular.ICompileService, $rootScope: angular.IRootScopeService, githubContributor: GithubContributor, $q: angular.IQService) => {
     spyOn(githubContributor, 'getContributors').and.callFake(() => {

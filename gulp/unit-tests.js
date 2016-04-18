@@ -22,6 +22,10 @@ function runTests (singleRun, done) {
     preprocessors[path] = ['ng-html2js'];
   });
 
+  pathSrcJs.forEach(function(path) {
+    preprocessors[path] = ['sourcemap'];
+  });
+
   if (singleRun) {
     pathSrcJs.forEach(function(path) {
       preprocessors[path] = ['coverage'];

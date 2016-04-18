@@ -10,7 +10,7 @@ describe('directive navbar', function() {
   let navbarController: NavbarController;
   let timeInMs: number;
 
-  beforeEach(angular.mock.module('tempoFoo'));
+  beforeEach(angular.mock.module('generatorGulpAngularProduct'));
 
   beforeEach(inject(($compile: angular.ICompileService, $rootScope: angular.IRootScopeService) => {
     const currentDate: Date = new Date();
