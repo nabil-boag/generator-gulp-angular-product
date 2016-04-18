@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {},
   "scripts": {
+    "postinstall": "typings install",
     "test": "gulp test"
   },
   "devDependencies": {
@@ -36,10 +37,12 @@
     "ts-loader": "~0.8.0",
     "tslint-loader": "~1.0.2",
     "typings": "~0.7.9",
+    "karma-sourcemap-loader": "~0.3.6",
     "main-bower-files": "~2.9.0",
     "wiredep": "~2.2.2",
     "karma": "~0.13.10",
     "karma-jasmine": "~0.3.6",
+    "angular-multimocks": "~0.6.2",
     "cucumber": "~0.10.2",
     "protractor-cucumber-framework": "~0.5.0",
     "chai": "~3.5.0",

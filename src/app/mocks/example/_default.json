@@ -1,0 +1,8 @@
+
+{
+  "httpMethod": "GET",
+  "statusCode": 200,
+  "responseDelay": 1000,
+  "uri": "/some-path",
+  "response": "Some mocked response data"
+}
