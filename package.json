@@ -1,5 +1,5 @@
 {
-  "name": "tempoFoo",
+  "name": "generatorGulpAngularProduct",
   "version": "0.0.0",
   "dependencies": {},
   "scripts": {
@@ -42,7 +42,7 @@
     "wiredep": "~2.2.2",
     "karma": "~0.13.10",
     "karma-jasmine": "~0.3.6",
-    "angular-multimocks": "~0.6.2",
+    "angular-multimocks": "git+https://github.com/nabil-boag/angular-multimocks.git",
     "cucumber": "~0.10.2",
     "protractor-cucumber-framework": "~0.5.0",
     "chai": "~3.5.0",
